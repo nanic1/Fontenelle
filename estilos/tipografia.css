@@ -45,8 +45,33 @@ h2 {
     font-weight: 200;
 }
 
+h2::after {
+    display: block;
+    background-color: #078C31;
+    height: 5px;
+    width: 100px;
+    margin: 40px auto 30px;
+    content: " ";
+}
+
+h4 {
+    font-size: 150%;
+    font-weight: 150;
+    padding: 20px 0;
+}
+
 p, li, a {
     font-family: 'Open Sans', sans-serif;
+    color: #404040;
+}
+
+p.destaque {
+    font-size: 130%;
+    line-height: 1.8;
+    font-weight: 300;
+
+    text-align: center;
+    width: 60%;
 }
 
 /* ------------------- */
@@ -74,4 +99,22 @@ header div#chamada a {
     border-radius: 50px;
 
     background: linear-gradient(rgba(7,140,49,55) 0%, rgba(6,89,2,35) 60%, rgba(6,89,2,35) 100% );
+}
+
+/* ---------------------- */
+/* SEÇÃO DOMINGO PERFEITO */
+/* ---------------------- */
+
+div.pontos-chaves h4 {
+    color: #404040;
+}
+
+div.pontos-chaves h4:after {
+    display: block;
+    background-color: #078C31;
+
+    height: 5px;
+    width: 30%;
+    margin: 20px auto 10px;
+    content: " ";
 }
