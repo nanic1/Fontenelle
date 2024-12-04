@@ -118,3 +118,22 @@ div.pontos-chaves h4:after {
     margin: 20px auto 10px;
     content: " ";
 }
+
+/* ------------------- */
+/*     SEÇÃO PIZZA     */
+/* ------------------- */
+
+section#pizza p.destaque {
+    color: #fff;
+
+    width: 40%;
+}
+
+section#pizza ul li {
+    color: white;
+    list-style: none;
+    line-height: 1.9;
+    font-size: 90%;
+
+    text-transform: uppercase;
+}

@@ -218,3 +218,37 @@ section#domingo-perfeito div.pontos-chaves ion-icon {
     height: 75px;
     color: #F03733;
 }
+
+/* ------------------- */
+/*     SEÇÃO PIZZA     */
+/* ------------------- */
+
+section#pizza {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(../imagens/secao10-background-secao-pizza.jpg);
+    background-size: cover;
+    padding: 40px 0 80px;
+    height: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+}
+
+div#pizza-opcoes-mestre {
+    width: 80%;
+    margin-top: 30px;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.pizza-opcoes {
+    width: 33.3%;
+    text-align: center;
+
+    margin: 5px 0;
+}
