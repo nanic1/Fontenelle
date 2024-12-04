@@ -1,3 +1,14 @@
+#teste {
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 60px;
+    z-index: 10;
+    color: #000;
+}
+
 /*
 CORES
 verde escuro: #065902
