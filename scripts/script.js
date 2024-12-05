@@ -41,3 +41,9 @@ $('div#testemunha-esquerda').click( function() {
     $('div#testemunha-direita ion-icon').css('opacity', 1)
     $('div#testemunha-direita ion-icon').css('cursor', 'pointer')
 })
+
+// CÓDIGOS DE CLIQUES DOS PLANOS DE ASSINATURA
+
+$('div.planos-bottom').click(function() {
+    alert('clicou')
+})
