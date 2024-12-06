@@ -47,3 +47,20 @@ $('div#testemunha-esquerda').click( function() {
 $('div.planos-bottom').click(function() {
     alert('clicou')
 })
+
+// CÓDIGO PARA DIRECIONAMENTO DE LINKS
+
+//GitHub
+$("ion-icon#github").click(function() {
+    window.open("https://github.com/nanic1")
+})
+
+//Instagram
+$("ion-icon#instagram").click(function() {
+    window.open("https://www.instagram.com/p_kurtzz/")
+})
+
+//Linkedin
+$("ion-icon#linkedin").click(function() {
+    window.open("https://www.linkedin.com/in/pedrocastrokurtz/")
+})
