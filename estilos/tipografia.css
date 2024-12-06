@@ -81,12 +81,21 @@ p.destaque {
 header div#chamada h1 {
     color: #FFF;
     text-shadow: 4px 6px 10px #000;
+
+    animation-name: headerH1-moverDireita;
+    animation-duration: 2s;
 }
 
 header div#chamada h4 {
     font-size: 250%;
     text-shadow: 4px 6px 10px #000;
     margin-bottom: 55px;
+
+    animation-name: HeaderH4-moverEsquerda;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 
 header div#chamada a {
@@ -98,7 +107,15 @@ header div#chamada a {
     padding: 20px 80px;
     border-radius: 50px;
 
+    display: inline-block;
+
     background: linear-gradient(rgba(7,140,49,55) 0%, rgba(6,89,2,35) 60%, rgba(6,89,2,35) 100% );
+
+    animation-name: HeaderA-moverAcima;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
 }
 
 /* ---------------------- */
