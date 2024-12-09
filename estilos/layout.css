@@ -44,18 +44,40 @@ header {
 
 nav {
     width: 95%;
-    height: 200px;
-
-    margin: 10px auto;
+    height: 150px;
+    position: fixed; top:0; left:2.5%; z-index:9999;
 }
 
-nav div#logo {
+.navEstatico {
+    width: 100%;
+    height: 55px;
+    left: 0;
+    background-color: rgba(247,247,247,0.98);
+    box-shadow: 0 1px 10px #333;
+
+    transition-duration: 0.8s;
+}
+
+nav div {
     float: left;
     background-image: url(../imagens/secao08-logo-pizzaria-fontenelle.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 200px;
-    height: 200px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.logoEstatico {
+    height: 55px;
+    width: 75px;
+    margin-left: 50px;
+    background-color: #065902;
+    transition-duration: 0.8s;
+}
+
+.logoEstatico:hover {
+    background-color: #078C31;
 }
 
 nav ul#esquerda {
@@ -70,8 +92,11 @@ nav ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: left;
-    padding-top: 70px;
-    height: 40px;
+    padding-top: 60px;
+}
+
+.menuEstatico {
+    padding-top: 15px;
 }
 
 nav ul li {
@@ -87,6 +112,12 @@ nav ul li a {
     font-size: 80%;
 }
 
+.itemEstatico {
+    color: #404040;
+    border-radius: 0;
+    padding: 19px 30px;
+}
+
 nav ul li a#criar-conta {
     border: 1px solid #FFF;
     padding: 9px 29px;
@@ -98,16 +129,21 @@ nav ul li a:hover {
     transition-duration: 0.8s;
 }
 
-nav ion-icon#icone-user {
+nav ion-icon {
     width: 45px;
     height: 45px;
 
     color: white;
-    margin-top: -13px;
+    margin-top: -10px;
     margin-left: 20px;
 }
 
-nav ion-icon#icone-user:hover {
+.iconeEstatico {
+    color: #404040;
+    margin-right: 50px;
+}
+
+nav ion-icon:hover {
     color: #f2b705;
     cursor: pointer;
     transition-duration: 0.8s;
@@ -129,9 +165,12 @@ header div#chamada {
 /* SEÇÃO DOMINGO PERFEITO */
 /* ---------------------- */
 
+section {
+    padding: 55px 0 80px;
+}
+
 section#domingo-perfeito {
     width: 100%;
-    padding: 40px 0 80px;
 
     display: flex;
     flex-flow: row wrap;
@@ -245,7 +284,6 @@ section#domingo-perfeito div.pontos-chaves ion-icon {
 section#pizza {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(../imagens/secao10-background-secao-pizza.jpg);
     background-size: cover;
-    padding: 40px 0 80px;
     height: 1000px;
 
     display: flex;
@@ -280,7 +318,6 @@ div.pizza-opcoes {
 
 section#testemunha {
     width: 100%;
-    padding: 40px 0 80px;
     background-image: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.8), rgba(255,255,255,1)), url(../imagens/secao11-background-secao-depoimento.png);
 
     display: flex;
@@ -424,7 +461,6 @@ div#transicao-testemunha-plano div#decoracao3 {
 section#plano-principal {
     width: 100%;
     height: 800px;
-    padding: 40px 0 80px;
 }
 
 div#planos-janela {
