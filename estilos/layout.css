@@ -151,6 +151,7 @@ div.folha1 {
     height: 150px;
     background-image: url(../imagens/secao09-folha1.png);
     background-repeat: no-repeat;
+    opacity: 0;
 }
 
 div.camarao {
@@ -161,6 +162,7 @@ div.camarao {
     height: 150px;
     background-image: url(../imagens/secao09-camarao.jpg);
     background-repeat: no-repeat;
+    opacity: 0;
 }
 
 div.folha2 {
@@ -171,6 +173,7 @@ div.folha2 {
     height: 150px;
     background-image: url(../imagens/secao09-folha2.png);
     background-repeat: no-repeat;
+    opacity: 0;
 }
 
 div.folha3 {
@@ -181,6 +184,7 @@ div.folha3 {
     height: 150px;
     background-image: url(../imagens/secao09-folha3.png);
     background-repeat: no-repeat;
+    opacity: 0;
 }
 
 div.tomate {
@@ -191,6 +195,7 @@ div.tomate {
     height: 150px;
     background-image: url(../imagens/secao09-tomate.png);
     background-repeat: no-repeat;
+    opacity: 0;
 }
 
 div.queijo {
@@ -201,6 +206,7 @@ div.queijo {
     height: 150px;
     background-image: url(../imagens/secao09-queijo.jpg);
     background-repeat: no-repeat;
+    opacity: 0;
 }
 
 div#domingo-perfeito-centro {
@@ -249,6 +255,7 @@ section#pizza {
     align-items: center;
 
     clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+
 }
 
 div#pizza-opcoes-mestre {
@@ -264,6 +271,7 @@ div.pizza-opcoes {
     text-align: center;
 
     margin: 5px 0;
+    opacity: 0;
 }
 
 /* --------------------------- */
@@ -383,6 +391,8 @@ div#transicao-testemunha-plano div#decoracao1 {
     background-image: url(../imagens/secao13-tomate-manjericao-alho.jpg);
     background-repeat: no-repeat;
     background-position: top center;
+
+    opacity: 0;
 }
 
 div#transicao-testemunha-plano div#decoracao2 {
@@ -392,6 +402,8 @@ div#transicao-testemunha-plano div#decoracao2 {
     background-image: url(../imagens/secao13-azeite.jpg);
     background-repeat: no-repeat;
     background-position: top center;
+
+    opacity: 0;
 }
 
 div#transicao-testemunha-plano div#decoracao3 {
@@ -401,6 +413,8 @@ div#transicao-testemunha-plano div#decoracao3 {
     background-image: url(../imagens/secao13-detalhe-tomate.jpg);
     background-repeat: no-repeat;
     background-position: bottom right;
+
+    opacity: 0;
 }
 
 /* ---------------------- */
@@ -426,6 +440,8 @@ div.planos {
     width: 250px;
     height: 350px;
     margin: 80px 30px;
+
+    opacity: 0;
 }
 
 div.planos-top {
@@ -486,6 +502,7 @@ footer div#info {
     height: 390px;
     background-color: #F03733;
     box-shadow: 0 3px 10px #404040;
+    opacity: 0;
 }
 
 footer div#redes-sociais {
