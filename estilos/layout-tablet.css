@@ -1,0 +1,78 @@
+/* TIPOGRAFIA */
+
+p.destaque, section#pizza p.destaque, section#testemunha p.destaque {
+    width: 80%;
+}
+
+/* TIPOGRAFIA */
+
+nav {
+    width: 100%;
+    left: 0;
+}
+
+nav div {
+    width: 150px;
+    height: 130px;
+    background-position: center bottom;
+}
+
+.logoEstatico {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.itemEstatico {
+    padding: 19px 10px;
+}
+
+/* DOMINGO PERFEITO */
+
+div#domingo-perfeito-esquerda, div#domingo-perfeito-direita {
+    display: none;
+}
+
+div#domingo-perfeito-centro {
+    width: 95%;
+}
+
+/* PIZZA */
+
+div#pizza-opcoes-mestre {
+    width: 95%;
+}
+
+/* TESTEMUNHO */
+
+div#testemunha-centro {
+    width: 680px;
+}
+
+div#testemunha-esquerda, div#testemunha-direita {
+    display: none;
+}
+
+/* TRANSIÇÃO */
+
+div#transicao-testemunha-plano {
+    display: none;
+}
+
+/* PLANOS */
+
+div#planos-janela {
+    width: 100%;
+}
+
+div.planos {
+    margin: 80px 5px;
+}
+
+@media screen and (max-width:940px) {
+
+}
