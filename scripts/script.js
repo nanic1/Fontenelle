@@ -62,7 +62,7 @@ $("ion-icon#instagram").click(function() {
 
 //Linkedin
 $("ion-icon#linkedin").click(function() {
-    window.open("https://www.linkedin.com/in/pedro-de-castro-kurtz-03b566269/")
+    window.open("https://www.linkedin.com/in/pedro-de-castro-kurtz/")
 })
 
 // CÓDIGOS DE ANIMAÇÃO
